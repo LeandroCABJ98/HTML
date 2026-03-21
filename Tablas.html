@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas las tablas generales</title>
+</head>
+
+<body>
+    <h1> Haciendo y practicando cada forma de hacer las tablas</h1>
+    <hr>
+    <h2>Fusion de columnas</h2>
+    <table border="1">
+        <tr>
+            <th colspan="2">HIJA</th>
+        </tr>
+        <tr>
+            <td>PAPA</td>
+            <td>MAMA</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Fucion de filas</h2>
+    <table border="1">
+        <tr>
+            <td>PAPA</td>
+            <td rowspan="2"> MAMA</td>
+        </tr>
+        <tr>
+            <td>HIJA</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Fusion de cada columnas</h2>
+    <table border="1">
+        <tr>
+            <td colspan="3">A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td colspan="2">D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td colspan="4">F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>J</td>
+            <td>K</td>
+        </tr>
+    </table>
+    <hr>
+    <h2> Fuisones de cada filas</h2>
+    <table border="1">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td rowspan="3">C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E</td>
+            <td>F</td>
+            <td rowspan="3">G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>J</td>
+            <td>K</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Combinacion de todas las filas y columnas</h2>
+    <Table border="1">
+        <caption> Analisis de ventas anuales</caption>
+        <tr>
+            <th rowspan="2">AÑO</th>
+            <th colspan="4">Expancion de ventas</th>
+        </tr>
+        <tr>
+            <th>PRODUCTO A</th>
+            <th>PRODUCTO B</th>
+            <th>PRODUCTO C</th>
+            <th>PRODUCTO D</th>
+        </tr>
+        <tr>
+            <td>N°3</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>N°2</td>
+            <td>4</td>
+            <td>2</td>
+            <td>3</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>N°1</td>
+            <td>3</td>
+            <td>7</td>
+            <td>9</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>N°0</td>
+            <td>8</td>
+            <td>-</td>
+            <td>-</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">AÑO</td>
+            <th>PRODUCTO A</th>
+            <th>PRODUCTO B</tH>
+            <th>PRODUCTO C</th>
+            <th>PRODUCTO D</th>
+        </tr>
+        <tr>
+            <th colspan="4">Expancion de ventas</th>
+        </tr>
+    </Table>
+    <hr>
+    <H2>por ultimo una tabla sin estructura pero lineal de tabla semantica</H2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Clasificacion</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Promedio</th>
+                <th>87.6</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>RED INALAMBRICA</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>INTRODUCCION A LA CIENCIA</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>COPILADORES E INTERES</td>
+                <td>75</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
