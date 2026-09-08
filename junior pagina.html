@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Creacion de formularios </title>
+</head>
+
+<body>
+    <header>
+        <h1> aprendiendo a crear paginas</h1>
+        <p>><a href="pagina central.html"> Volver atras</a></p>
+        <hr />
+    </header>
+    <main>
+        <h1> Formulario sencillo</h1>
+        <form action="/registrar-cliente/" name="registro" method="get" autocomplete="off">
+            <!--- para autocompletar el texto es con "on" y sin autocompletar con "off" --->
+            <!-- para que el texto este dentro del cuadro es poniendo "placeholder"= "leandro" y aparecera dentro del texto -->
+            nombre<br>
+            <input type="text" name="nombre"><br />
+
+            Apellidos <br>
+
+            <input type="text" name="Apellidos"> <br />
+            Pais<br>
+
+            <input type="text" name="Pais"><br />
+            Edad <br>
+            <input type="number" name="Edad"><br />
+
+            Contraseña <br>
+            <input type="password" name="Clave">
+            <p>
+                <button>Enviar</button>
+            </p>
+        </form>
+
+
+
+    </main>
+
+</body>
+
+</html>
